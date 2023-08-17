@@ -1,0 +1,90 @@
+.main-container {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(230, 229, 224);
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    background-color: grey;
+    z-index: 1;
+    color: white;
+}
+
+.dropdown {
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.under-dropdown {
+    margin-top: 20px;
+}
+
+.under-dropdown button:hover {
+    border-radius: 0px;
+    background-color: grey;
+    z-index: 1;
+    color: white;
+}
+
+.drop-tog {
+    width: 250px;
+}
+
+.text-head button {
+    margin-top: 5px;
+    border-radius: 0px;
+    border: none;
+    background-color: rgb(230, 229, 224);
+}
+
+.three-btn button {
+    width: 250px;
+    border-radius: 0;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.three-btn button:hover {
+    border-radius: 0px;
+    background-color: white;
+    z-index: 1;
+    color: black;
+}
+
+.text-foot button {
+    margin-top: 5px;
+    border-radius: 0px;
+    border: none;
+    background-color: rgb(230, 229, 224);
+}
+
+.remaining {
+    margin-left: 20px;
+}
+
+.remaining h6 {
+    display: inline-block;
+    margin-top: 40px;
+    color: #2D97D4;
+}
+
+.remaining i {
+    margin-left: 500px;
+}
+
+.remaining .two {
+    color: black;
+}
+
+.message-box {
+    width: 90%;
+    margin-top: 45px;
+}
+
+.under-remaining i {
+    margin-left: 0px;
+}
